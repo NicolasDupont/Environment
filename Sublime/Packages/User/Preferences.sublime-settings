@@ -58,17 +58,16 @@
 		"node_modules"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 20.0,
+	"font_size": 22.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"Tomorrow Color Schemes",
-		"Theme - Phoenix",
-		"Markdown"
+		"Markdown",
+		"Vintage",
+		"Theme - Phoenix"
 	],
-	"indent_to_bracket": true,
 	"keymaps":
 	{
 		"show_osx_keys": true
@@ -95,5 +94,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_indent_to_bracket": true,
 	"use_simple_full_screen": true,
-	"word_warp": true
+	"word_wrap": false
 }
