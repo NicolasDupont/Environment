@@ -9,5 +9,5 @@
 	// 	sort_tabs_by_type
 	// 	sort_tabs_by_date
 	// 	sort_tabs_by_last_activation
-	"sort_on_load_save_command" : "sort_tabs_by_file_path"
+	"sort_on_load_save_command" : "sort_tabs_by_last_activation"
 }
