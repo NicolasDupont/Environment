@@ -63,10 +63,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Tomorrow Color Schemes",
-		"Markdown",
 		"Vintage",
-		"Theme - Phoenix"
+		"Markdown"
 	],
 	"keymaps":
 	{
