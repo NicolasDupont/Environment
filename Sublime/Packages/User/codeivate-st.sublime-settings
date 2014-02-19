@@ -3,8 +3,7 @@
 	"growl_active": true,
 	"machine_name":
 	{
-		"220083054790299": "Kristan Atkin",
-		"251575820096645": "Jong Delmonte"
+		"22061633793061": "Dede Podwoski"
 	},
 	"notify_send_active": true,
 	"notify_send_path": "/usr/bin/notify-send",

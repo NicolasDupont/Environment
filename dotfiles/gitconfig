@@ -69,3 +69,7 @@
 
 [rebase]
 	autosquash = true
+
+[user]
+	name = Nicolas Dupont
+	email = npg.dupont@gmail.com
