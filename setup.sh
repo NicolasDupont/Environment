@@ -21,3 +21,6 @@ function installFonts() {
 
 linkDotfiles
 installFonts
+
+brew bundle
+brew bundle Caskfile

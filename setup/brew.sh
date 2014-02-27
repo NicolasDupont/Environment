@@ -16,14 +16,6 @@ sudo -v
 
 brew doctor || exit 1
 
-brew install git
-brew install imagemagick
-brew install chromedriver
-brew install jsdoc-toolkit
-brew install selenium-server-standalone
-brew install node
-brew install postgresql
-
 # postgres
 # create db
 # initdb /usr/local/var/postgres -E utf8

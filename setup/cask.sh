@@ -5,32 +5,6 @@
 brew tap phinze/homebrew-cask
 brew install brew-cask || brew upgrade brew-cask
 
-function installcask() {
-        brew cask install "${@}" 2> /dev/null
-}
-# Install native apps
-
-installcask alfred
-installcask caffeine
-installcask dropbox
-installcask firefox
-installcask firefox-aurora
-installcask gitx-l
-installcask google-chrome
-installcask growlnotify
-installcask iterm2
-installcask omni-graffle-pro
-installcask opera
-installcask skype
-installcask sublime-text
-installcask slowy
-installcask the-unarchiver
-installcask transmission
-installcask vagrant
-installcask virtualbox
-installcask vlc
-
-
 # Prepare brew for multi-users setup
 if ! sudo dscl . read /Groups/brew &> /dev/null
 then
