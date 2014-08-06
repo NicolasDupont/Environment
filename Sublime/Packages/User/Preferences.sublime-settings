@@ -50,12 +50,13 @@
 		".sass-cache",
 		".bundle",
 		"bundle",
+		".vagrant",
+		"bower_components",
+		".tmp",
 		".rbx",
-		"bin",
 		"tmp",
 		"Coverage",
-		"private/import",
-		"node_modules"
+		"private/import"
 	],
 	"font_face": "Inconsolata",
 	"font_size": 22.0,
@@ -63,8 +64,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"keymaps":
 	{
@@ -84,11 +85,14 @@
 	"scroll_past_end": true,
 	"show_full_path": true,
 	"show_tab_close_buttons": false,
-	"spell_check": false,
+	"spell_check": true,
 	"tab_completion": false,
-	"tab_size": 4,
 	"theme": "Flatland Dark.sublime-theme",
+	"tab_size": 2,
+	"findreplace_small": true,
+	"tabs_small": true,
 	"tidytabs_threshold": 10,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_indent_to_bracket": true,
 	"use_simple_full_screen": true,
