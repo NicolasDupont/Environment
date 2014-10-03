@@ -1,0 +1,13 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+/*-------------------------------------------------*\
+ * $1
+\*-------------------------------------------------*/
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cssh</tabTrigger>
+  <description>css header comment</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.less, comment.block.css, punctuation.definition.comment.css</scope>
+</snippet>

@@ -13,6 +13,12 @@
 	# Delete a branch both locally and remotely
 	drop = !"git branch -D $1; git push origin --delete"
 
+	# rebase master intreactively
+	rbi = rebase -i master
+
+	# Will delete any local branches that have already been merged as well as prune remote branches that have been deleted from your origin repo.
+	branch-cleanup = !sh -c 'git branch --merged | grep -v master | xargs git branch -d && git remote prune origin'
+
 [apply]
 	# Detect whitespace errors when applying a patch
 	whitespace = fix
@@ -70,3 +76,8 @@
 [user]
 	name = Nicolas Dupont
 	email = npg.dupont@gmail.com
+
+[pager]
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less

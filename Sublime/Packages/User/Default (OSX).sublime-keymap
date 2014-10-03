@@ -2,5 +2,11 @@
 	{ "keys": ["ctrl+tab"], "command": "next_view" },
 	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 	{ "keys": ["super+alt+n"], "command": "advanced_new_file"},
-	{ "keys": ["super+shift+space"], "command": "expand_region" }
+  { "keys": ["super+alt+n"], "command": "normalize_region_ends" },
+  { "keys": ["super+alt+s"], "command": "strip_selection" },
+  { "keys": ["super+alt+r"], "command": "remove_empty_regions" },
+	{ "keys": ["super+shift+space"], "command": "expand_region" },
+  { "keys": ["super+shift+alt+r"], "command": "side_bar_move" },
+  { "keys": ["ctrl+shift+h"], "command": "huely_extract" },
+  { "keys": ["ctrl+shift+a"], "command": "alignment" }
 ]

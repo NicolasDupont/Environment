@@ -1,8 +1,9 @@
 {
 	"bold_folder_labels": true,
+	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"color_scheme": "Packages/User/Seti (SL).tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
@@ -36,6 +37,7 @@
 		".backup",
 		".xml"
 	],
+	"findreplace_small": true,
 	"flatland_square_tabs": true,
 	"fold_buttons": true,
 	"folder_exclude_patterns":
@@ -52,6 +54,7 @@
 		"bundle",
 		".vagrant",
 		"bower_components",
+		"node_modules",
 		".tmp",
 		".rbx",
 		"tmp",
@@ -59,13 +62,14 @@
 		"private/import"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 22.0,
+	"font_size": 18.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage"
+		"Vintage",
+		"SublimeCodeIntel"
 	],
 	"keymaps":
 	{
@@ -87,10 +91,9 @@
 	"show_tab_close_buttons": false,
 	"spell_check": true,
 	"tab_completion": false,
-	"theme": "Flatland Dark.sublime-theme",
 	"tab_size": 2,
-	"findreplace_small": true,
 	"tabs_small": true,
+	"theme": "Seti.sublime-theme",
 	"tidytabs_threshold": 10,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
