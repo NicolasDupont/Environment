@@ -8,7 +8,7 @@
 	s = status -s
 
 	# Pull in remote changes for the current repository and all its submodules
-	p = !"git pull; git submodule foreach git pull origin master"
+	p = !"git pull --rebase; git submodule foreach git pull origin master"
 
 	# Delete a branch both locally and remotely
 	drop = !"git branch -D $1; git push origin --delete"
@@ -18,6 +18,11 @@
 
 	# Will delete any local branches that have already been merged as well as prune remote branches that have been deleted from your origin repo.
 	branch-cleanup = !sh -c 'git branch --merged | grep -v master | xargs git branch -d && git remote prune origin'
+
+	force = push --force-with-lease
+
+	wip = !"git add . --all; git commit -m wip"
+	unwip = "!if [[ `git log --format=\"%s\" -1` = \"wip\" ]]; then git reset --soft HEAD^1 && git reset HEAD; else echo 'Last commit was not a wip'; fi;"
 
 [apply]
 	# Detect whitespace errors when applying a patch
@@ -81,3 +86,5 @@
 	log = diff-highlight | less
 	show = diff-highlight | less
 	diff = diff-highlight | less
+[pull]
+	rebase = true
